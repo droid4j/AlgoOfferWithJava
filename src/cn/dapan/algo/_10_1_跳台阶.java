@@ -40,7 +40,7 @@ public class _10_1_跳台阶 {
        int ret = 0;
        int a = 1;
        int b = 2;
-       for (int i = 3; i < target; i++) {
+       for (int i = 3; i <= target; i++) {
            ret = a + b;
            a = b;
            b = ret;
